@@ -1,0 +1,11 @@
+
+
+<script>
+function inform(){
+alert("You have activated me by clicking the grey button! Note that the event handler is added within the event that it handles, in this case, the form button event tag")
+}
+</script>
+
+<form>
+<input type="button" name="test" value="Click me" onclick="inform()">
+</form>

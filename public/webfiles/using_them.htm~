@@ -1,0 +1,56 @@
+<!-- COMMENT : Basic Header For HTML Files -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+    <head>
+   <title>Youv'e Got Dilemmas</title>
+    </head>
+    <body>
+
+<!-- INSERT : Basic Table Template -->
+
+<TABLE CELLSPACING="10" CELLPADDING="10" WIDTH="100%">
+<TR VALIGN="Top">
+<TD WIDTH="20%">&nbsp;</TD>
+<TD WIDTH="80%">&nbsp;</TD>
+<TD WIDTH="20%">&nbsp;</TD></TR>
+<TR>
+<TD></TD>
+<TD>
+<h1 align="center"> Chapter 2 </h1><p>
+
+I have now identified, isolated and explained for you the three basic things you will need. <a href="revise.htm" style="font-size: x-small; color: red;">(!)</a><p>
+
+So we now have everything you need to resolve all of the dilemmas in your life.<p>
+
+&nbsp; 1. A <a href="mind.htm">mind</a>.<p>
+&nbsp; 2. A <a href="consciousness.htm">counsciousness</a>.<p>
+&nbsp; 3. And an ability to <a href="knowledge.htm">know</a>.<p>
+
+So what are you supposed to do with them!
+
+Starting with the <a href="clear_mind.htm">mind</a>.<p>
+
+
+</TD>
+<TD></TD>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+</TABLE>
+
+<!-- END : Basic Table Template -->
+
+   <p>
+   <br>
+</body>
+</html>
+

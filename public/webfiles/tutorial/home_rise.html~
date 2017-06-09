@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+ 
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+
+<SCRIPT LANGUAGE="JavaScript"><!--
+
+function hiLite2(imgName,imgSrc) {
+if (document.images) {
+  document.images[imgName].src = imgSrc
+}}
+
+//--></SCRIPT>
+
+</HEAD>
+<BODY>
+
+<A HREF="another.html" 
+   onMouseOver="hiLite2('img01','anihome_up.gif')"
+   onMouseOut="hiLite2('img01','anihome_down.gif')">
+   <IMG SRC="anihome_static.gif" WIDTH="70" HEIGHT="70" 
+BORDER="0" ALT="Home" NAME="img01"></A>
+<p>
+<p>
+<!-- <img SRC="../images/globe.gif" WIDTH=70 HEIGHT=70 ALIGN=middle
+ALT="The world of HTML is at your feet..."> -->
+
+
+
+</BODY>
+</HTML>

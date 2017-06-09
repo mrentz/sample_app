@@ -1,0 +1,40 @@
+<!-- COMMENT : Basic Header For HTML Files -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+    <head>
+   <title>The Forms in Your Mind</title>
+    </head>
+    <body>
+<!-- INSERT : Basic Table Template -->
+
+<TABLE CELLSPACING="10" CELLPADDING="10" WIDTH="100%">
+<TR VALIGN="Top">
+<TD WIDTH="20%">&nbsp;</TD>
+<TD WIDTH="80%">&nbsp;</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD>Your '<i><b>knowing</b></i>' is really just an old photographic camera film development laboratory. And your mind is likle the two parts of a camera:- Lens and aperture, which is the 'detection' part. and the film is the image formation. (sort of). But I <a href="clear_mind.htm#digress">digress</a>.
+
+</TD>
+<TD></TD>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+</TABLE>
+
+<!-- END : Basic Table Template -->
+   <p>
+   <br>
+</body>
+</html>
+

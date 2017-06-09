@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+// preload images:
+if (document.images) {
+birds = new Image(12,14); birds.src = "birds/birds.gif"; 
+cangoose = new Image(12,14); cangoose.src = "birds/cangoose.gif";
+cockatoo = new Image(12,14); cockatoo.src = "birds/cockatoo.gif";
+pigeon = new Image(12,14); pigeon.src = "birds/pigeon.gif";
+stork = new Image(12,14); stork.src = "birds/stork.gif";
+swan = new Image(12,14); swan.src = "birds/swan.gif";
+toucan = new Image(12,14); toucan.src = "birds/toucan.gif";
+}
+
+function hiLite(imgName,imgObjName) {
+if (document.images) {
+  document.images[imgName].src = eval(imgObjName + ".src");
+}}
+
+function nada() {
+}
+
+//--></SCRIPT>
+
+</HEAD>
+<BODY>
+
+<TABLE ALIGN = "center">
+<TR>
+<TD> <div style="text-align: center;">
+<A HREF="javascript:nada()" 
+   onMouseOver="hiLite('img01','cangoose')"
+   onMouseOut="hiLite('img01','birds')">Canadian Goose</A>
+ <br>
+
+<A HREF="javascript:nada()" 
+   onMouseOver="hiLite('img01','cockatoo')"
+   onMouseOut="hiLite('img01','birds')">cockatoo</A>
+<br>
+
+<A HREF="javascript:nada()" 
+   onMouseOver="hiLite('img01','pigeon')"
+   onMouseOut="hiLite('img01','birds')">pigeon</A>
+<br>
+
+<A HREF="javascript:nada()" 
+   onMouseOver="hiLite('img01','stork')"
+   onMouseOut="hiLite('img01','birds')">stork</A>
+<br>
+
+<A HREF="javascript:nada()" 
+   onMouseOver="hiLite('img01','swan')"
+   onMouseOut="hiLite('img01','birds')">swan</A>
+<br>
+
+<A HREF="javascript:nada()" 
+   onMouseOver="hiLite('img01','toucan')"
+   onMouseOut="hiLite('img01','birds')">toucan</A>
+<br>
+</TD>
+<TD>
+  <IMG SRC="birds/birds.gif" WIDTH="150" HEIGHT="120" BORDER="0" 
+   ALT="" NAME="img01">
+</TD>
+</TR>
+</TABLE>
+<br>
+
+
+
+</BODY>
+</HTML>

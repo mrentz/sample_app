@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+
+<!--/*********************************************************
+              M A G I C  B U T T O N S  v3.0
+       http://junior.apk.net/~jbarta/tutor/buttons/
+      Permission is granted to freely use this script.
+**********************************************************/-->
+
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+
+<SCRIPT LANGUAGE="JavaScript"><!--
+
+// preload images:
+if (document.images) {
+home1 = new Image(75,22); home1.src = "home1.gif";
+home2 = new Image(75,22); home2.src = "home2.gif";
+links1 = new Image(75,22); links1.src = "links1.gif";
+links2 = new Image(75,22); links2.src = "links2.gif";
+email1 = new Image(75,22); email1.src = "email1.gif";
+email2 = new Image(75,22); email2.src = "email2.gif";
+}
+
+function hiLite(imgName,imgObjName) {
+if (document.images) {
+  document.images[imgName].src = eval(imgObjName + ".src");
+}}
+
+//--></SCRIPT>
+
+</HEAD>
+<BODY>
+
+<A HREF="../end.htm" 
+   onMouseOver="hiLite('img01','home2')"
+   onMouseOut="hiLite('img01','home1')">
+   <IMG SRC="home1.gif" WIDTH="75" HEIGHT="22" BORDER="0" 
+   ALT="" NAME="img01"></A>
+
+<A HREF="../mind.htm" 
+   onMouseOver="hiLite('img02','links2')"
+   onMouseOut="hiLite('img02','links1')">
+   <IMG SRC="links1.gif" WIDTH="75" HEIGHT="22" BORDER="0" 
+   ALT="" NAME="img02"></A>
+
+<A HREF="../revise.htm" 
+   onMouseOver="hiLite('img03','email2')"
+   onMouseOut="hiLite('img03','email1')">
+   <IMG SRC="email1.gif" WIDTH="75" HEIGHT="22" BORDER="0" 
+   ALT="" NAME="img03"></A>
+
+
+
+</BODY>
+</HTML>

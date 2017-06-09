@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+
+<SCRIPT LANGUAGE="JavaScript"><!--
+
+// preload images:
+if (document.images) {
+camera_off = new Image(42,44); camera_off.src = "camera_off.gif";
+camera_on = new Image(42,44); camera_on.src = "camera_on.gif";
+}
+
+function hiLite(imgName,imgObjName) {
+if (document.images) {
+  document.images[imgName].src = eval(imgObjName + ".src");
+}}
+
+function nada() {
+}
+
+//--></SCRIPT>
+
+</HEAD>
+<BODY>
+
+<A HREF="javascript:nada()" 
+   onMouseOver="hiLite('img04','camera_on')"
+   onMouseOut="hiLite('img04','camera_off')">
+   <IMG SRC="flash.gif" WIDTH="64" HEIGHT="16" BORDER="0" ALT="Flash"></A>
+   <IMG SRC="camera_off.gif" WIDTH="42" HEIGHT="44" BORDER="0" 
+   ALT="camera" NAME="img04">
+
+</BODY>
+</HTML>

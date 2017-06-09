@@ -1,0 +1,35 @@
+<!-- COMMENT : Basic Header For HTML Files -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+    <head>
+   <title>Input Field Test Code</title>
+
+<script> 
+function place_value(display_value){
+document.calc.wtcalc.value = display_value;
+}
+</script>
+
+    </head>
+    <body>
+   <p>
+
+<!-- INSERT : Basic Table Template -->
+
+<form name = "calc">
+
+<table>
+
+<tr>
+<td colspan=3 width=75%>
+<input name="wtcalc" type="text">
+</td>
+<td width=25%>
+<input type="button" onClick="place_value('')" value="Clear" >
+</td>
+</tr>
+</table>
+</form>

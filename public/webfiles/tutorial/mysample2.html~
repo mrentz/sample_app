@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+
+<!--/*********************************************************
+              M A G I C  B U T T O N S  v3.0
+       http://junior.apk.net/~jbarta/tutor/buttons/
+      Permission is granted to freely use this script.
+**********************************************************/-->
+
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+
+<SCRIPT LANGUAGE="JavaScript"><!--
+
+// preload images:
+if (document.images) {
+home1 = new Image(75,22); home1.src = "home1.gif";
+home2 = new Image(75,22); home2.src = "home2.gif";
+}
+
+function hiLite(imgName,imgObjName) {
+if (document.images) {
+  document.images[imgName].src = eval(imgObjName + ".src");
+}}
+
+//--></SCRIPT>
+
+</HEAD>
+<BODY>
+
+<A HREF="another.html" 
+   onMouseOver="hiLite('img01','home2')"
+   onMouseOut="hiLite('img01','home1')">
+   <IMG SRC="home1.gif" WIDTH="75" HEIGHT="22" BORDER="0" 
+   ALT="" NAME="img01"></A>
+
+
+
+</BODY>
+</HTML>

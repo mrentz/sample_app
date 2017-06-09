@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Stretched Background Image</title>
+<style type="text/css">
+/* Remove margins from the 'html' and 'body' tags, and ensure the page takes up full screen height */
+html, body {height:100%; margin:0; padding:0;}
+/* Set the position and dimensions of the background image. */
+#page-background {position:fixed; top:0; left:0; width:100%; height:100%;}
+/* Specify the position and layering for the content that needs to appear in front of the background image. Must have a higher z-index value than the background image. Also add some padding to compensate for removing the margin from the 'html' and 'body' tags. */
+#content {position:relative; z-index:1; padding:10px;}
+</style>
+<!-- The above code doesn't work in Internet Explorer 6. To address this, we use a conditional comment to specify an alternative style sheet for IE 6 -->
+<!--[if IE 6]>
+<style type="text/css">
+html {overflow-y:hidden;}
+body {overflow-y:auto;}
+#page-background {position:absolute; z-index:-1;}
+#content {position:static;padding:10px;}
+</style>
+<![endif]-->
+</head>
+<body>
+	<div id="page-background"><img src="images/bubbles.jpg" width="100%" height="100%" alt="Smile"></div>
+	<div id="content">
+
+
+<!-- INSERT : Basic Table Template -->
+
+<TABLE CELLSPACING="10" CELLPADDING="10" WIDTH="100%">
+<TR VALIGN="Top">
+<TD WIDTH="5%">&nbsp;</TD>
+<TD WIDTH="80%">&nbsp;</TD>
+<TD WIDTH="15%">&nbsp;</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD>
+<span style="color:white"><font size="4" face="arial"
+Reasons there are many why.<br>
+The mind can not be stilled.<br>
+The pool is not a static place.<br>
+Wherein is there no movement filled.<br>
+Therin the stream of life does flow.<br>
+The source of which we yearn to know.<p>
+
+Then there it goes continuously<br>
+The outward flowing tendency. <br>
+The current there will take the path<br> 
+Of least resistance, down it goes.<br>
+To which the flow one does resist <br>
+If your path is as it now would seem.<br>
+To the 'Higher World' that may exist.<br>
+You carry on, do not desist.<br>
+New life now lies in wait 'upstream'.<br>
+
+&nbsp;<p>
+&nbsp;<p>
+&nbsp;<p>
+&nbsp;<p>
+&nbsp;<p>
+
+The mind is deep. Descend deeper, deeper, the deeper you descend, the less the turbulence effects you and the more sublime becomes your being.<p>
+
+Wind blows across the water, creating ripples on the </style><a style="color: #80FF80; text-decoration: none; background: none" href="where_now.htm">surface.</a></style>
+ 
+ 
+
+
+
+</TD>
+<TD></TD>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+</TABLE>
+
+<!-- END : Basic Table Template -->
+
+</body>
+</html>

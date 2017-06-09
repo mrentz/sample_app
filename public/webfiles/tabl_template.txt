@@ -1,0 +1,14 @@
+<!-- INSERT : Table  -->
+
+<TABLE ALIGN = "center" >
+<TR>
+<TD style="vertical-align:middle"><font size="2">There have been</TD>
+<TD>
+<div style="text-align: center;"><IMG SRC="images/counter.png" 
+ALT="webfiles/images/counter.png"></div> 
+</TD>
+<TD valign="middle"><font size="2">visitors to this site</TD>
+</TR>
+</TABLE>
+<br>
+<!-- END : table -->

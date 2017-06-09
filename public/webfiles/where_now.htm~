@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Stretched Background Image</title>
+<style type="text/css">
+/* Remove margins from the 'html' and 'body' tags, and ensure the page takes up full screen height */
+html, body {height:100%; margin:0; padding:0;}
+/* Set the position and dimensions of the background image. */
+#page-background {position:fixed; top:0; left:0; width:100%; height:100%;}
+/* Specify the position and layering for the content that needs to appear in front of the background image. Must have a higher z-index value than the background image. Also add some padding to compensate for removing the margin from the 'html' and 'body' tags. */
+#content {position:relative; z-index:1; padding:10px;}
+</style>
+<!-- The above code doesn't work in Internet Explorer 6. To address this, we use a conditional comment to specify an alternative style sheet for IE 6 -->
+<!--[if IE 6]>
+<style type="text/css">
+html {overflow-y:hidden;}
+body {overflow-y:auto;}
+#page-background {position:absolute; z-index:-1;}
+#content {position:static;padding:10px;}
+</style>
+<![endif]-->
+</head>
+<body>
+	<div id="page-background"><img src="images/clear_blue.jpg" width="100%" height="100%" alt="Smile"></div>
+	<div id="content">
+
+<!-- INSERT : Basic Table Template -->
+
+<TABLE CELLSPACING="10" CELLPADDING="10" WIDTH="100%">
+<TR VALIGN="Top">
+<TD WIDTH="5%">&nbsp;</TD>
+<TD WIDTH="80%">&nbsp;</TD>
+<TD WIDTH="15%">&nbsp;</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD><span style="color:white"><font size="4" face="arial">
+
+Now we have a method for obtaining an image of conscuiousness as it exists in the clearing of your mind.<p>
+
+Mind, Consciousness, Understanding, the Ego and the Soul all exsist as parts of 'you'.<p>
+
+Now we can move on to 'Knowledge'. 
+
+With our consciousness, we can start using these 'parts' of you, to reconstruct your understanding of 'knowing' so as to enhance your 'being'.<p>
+
+Remember always. Not every 'component' of us has evolved through <i>time</i>. Time and space are just structures the mind uses to resolve material based phenomena into conscious images within. The evolution of consciousness, the mind, ego and Soul do not correspond to 'material' phenomena and so are not very easy things to 'image'.. What ever it is that the mind is made of exists outside of the three dimensional space and time that it is bound to represent material images by.<p>
+
+<a href="knowledge.htm">knowledge</a>
+
+</TD>
+<TD></TD>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+</TABLE>
+
+</span>
+
+<!-- END : Basic Table Template -->
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+$location = "../images";
+print "$location";

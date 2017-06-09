@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+ 
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+
+<SCRIPT LANGUAGE="JavaScript"><!--
+
+function hiLite2(imgName,imgSrc) {
+if (document.images) {
+  document.images[imgName].src = imgSrc
+}}
+
+//--></SCRIPT>
+
+</HEAD>
+<BODY>
+
+<A HREF="another.html" 
+   onMouseOver="hiLite2('img01','../images/gifs/anihome_up.gif')"
+   onMouseOut="hiLite2('img01','../images/gifs/anihome_down.gif')">
+   <IMG SRC="../images/gifs/anihome_static.gif" WIDTH="70" HEIGHT="70" 
+BORDER="0" ALT="Home" NAME="img01"></A>
+<p>
+<p>
+
+
+</BODY>
+</HTML>

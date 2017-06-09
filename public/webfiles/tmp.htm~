@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Stretched Background Image</title>
+<style type="text/css">
+/* Remove margins from the 'html' and 'body' tags, and ensure the page takes up full screen height */
+html, body {height:100%; margin:0; padding:0;}
+/* Set the position and dimensions of the background image. */
+#page-background {position:fixed; top:0; left:0; width:100%; height:100%;}
+/* Specify the position and layering for the content that needs to appear in front of the background image. Must have a higher z-index value than the background image. Also add some padding to compensate for removing the margin from the 'html' and 'body' tags. */
+#content {position:relative; z-index:1; padding:10px;}
+</style>
+<!-- The above code doesn't work in Internet Explorer 6. To address this, we use a conditional comment to specify an alternative style sheet for IE 6 -->
+<!--[if IE 6]>
+<style type="text/css">
+html {overflow-y:hidden;}
+body {overflow-y:auto;}
+#page-background {position:absolute; z-index:-1;}
+#content {position:static;padding:10px;}
+</style>
+<![endif]-->
+</head>
+<body>
+	<div id="page-background"><img src="images/murky_mind.jpg" width="100%" height="100%" alt="Smile"></div>
+	<div id="content">
+
+<!-- INSERT : Basic Table Template -->
+
+<TABLE CELLSPACING="10" CELLPADDING="10" WIDTH="100%">
+<TR VALIGN="Top">
+<TD WIDTH="5%">&nbsp;</TD>
+<TD WIDTH="80%">&nbsp;</TD>
+<TD WIDTH="15%">&nbsp;</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD><span style="color:white">Think of consciousness like 'eyes into your mind'. Think of your mind, not so much as an ocean but a deep pool formed over aeons by the crystal water that flows in from the high snow capped mountains.<p>
+
+Your consciousness is a set of eyes. Bobbing around somewhere in the pool.
+
+The water in the pool is highly disturbed. Their is much in the water to cause great turbulence. The turbulent forces cause silt to rise from the bed. Visibility is thus of a very obscure nature indeed.<p>
+Does this represent a somewhat reasonal metaphor? Seeing as we are not able to realise the form of our consciousness directly?
+
+<img SRC="images/tmp.gif" WIDTH=70 HEIGHT=70 ALIGN=middle
+ALT="The world of HTML is at your feet...">
+
+</TD>
+<TD></TD>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+</TABLE>
+
+</span>
+
+<!-- END : Basic Table Template -->
+
+</body>
+</html>

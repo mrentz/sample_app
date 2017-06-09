@@ -1,0 +1,35 @@
+<!-- COMMENT : Basic Header For HTML Files -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+<title>JavaScript Alert Boxes</title>
+
+<script language="JavaScript">
+function box1(input_text){alert("You just opened box " +  input_text);}
+function box2(){document.write("This is box #2");}
+</script>
+
+</head>
+
+<body>
+<a href="#" onClick="box1('bangojango')">Box #1</a><br>
+<a href="#" onClick="box2()">Box #2</a>
+</body>
+</html>
+
+
+
+
+
+<script>
+function inform(){
+alert("You have activated me by clicking the grey button! Note that the event handler is added within the event that it handles, in this case, the form button event tag")
+}
+</script>
+
+<form>
+<input type="button" name="test" value="Click me" onclick="inform()">
+</form>
