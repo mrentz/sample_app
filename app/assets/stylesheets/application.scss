@@ -1,9 +1,72 @@
+/* ...
+*= require_self
+*= require_tree .
+*/
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 /* mixins, variables, etc. */
 
-$gray-medium-light: #eaeaea;
+/*$gray-medium-light: #eaeaea;
+
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
+/* miscellaneous *
+
+.debug_dump {
+  clear: both;
+  float: center;
+  width: 85%;
+  margin-top: 45px;
+  margin-left: 45px;
+  margin-right: 45px;
+  @include box_sizing;
+}
+
+/* sidebar /
+
+aside {
+  section.user_info {
+    margin-top: 20px;
+  }
+  section {
+    padding: 10px 0;
+    margin-top: 20px;
+    &:first-child {
+      border: 20;
+      padding-top: 0;
+    }
+    span {
+      display: block;
+      margin-bottom: 3px;
+      line-height: 1;
+    }
+    h1 {
+      font-size: 1.4em;
+      text-align: left;
+      letter-spacing: -1px;
+      margin-bottom: 3px;
+      margin-top: 0px;
+      margin-left: 20px;
+    }
+  }
+}
+      
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.gravatar_edit {
+  margin-top: 15px;
+}
+
+
 
 /* universal */
 
@@ -26,7 +89,7 @@ textarea {
   }
 }
 
-/* typography */
+/* typography *
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
@@ -54,7 +117,7 @@ p {
 }
 
 
-/* header */
+/* header *
 
 #logo {
   float: left;
@@ -71,13 +134,15 @@ p {
   }
 }
 
-/* footer */
+/* footer *
 
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
+  margin-left: 45px;
+  margin-right: 45px;
   a {
     color: $gray;
     &:hover {
@@ -96,3 +161,5 @@ footer {
     }
   }
 }
+
+*/
