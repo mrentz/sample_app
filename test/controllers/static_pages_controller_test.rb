@@ -3,7 +3,7 @@ require 'test_helper'
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   
   def setup
-    @base_title = "Matthew's Sample App"
+    @base_title = "Your Reality Ends Here"
   end
  
   
