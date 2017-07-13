@@ -9,10 +9,13 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
                                          email: "user@invalid",
                                          password:              "foo",
                                          password_confirmation: "bar" } }
-    end
+   end
+
+    assert_select "div.alert", "The form contains 5 errors."
     assert_template 'users/new'
     assert_select "#error_explanation"
     assert_select ".field_with_errors"
+ 
   end
 
   test "valid signup information" do
