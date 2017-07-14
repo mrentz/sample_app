@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'mind_control/landing'
+
+  get 'mind_control/first'
+
+  get 'mind_control/inventory'
+
   get 'sessions/new'
 
   root 'static_pages#home'
